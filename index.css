@@ -368,3 +368,49 @@ transform: scale(1.05);
 
 
 /* places end */
+
+
+/* tourust start  */
+
+.turs{
+  margin-bottom: 139px; 
+}
+
+.turs-tur {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 0 108px ;
+align-items: center;
+margin-bottom: 77px;
+}
+.tur-info{
+  padding-left: 47px;
+}
+
+.tur-titel{
+font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+margin-bottom: 85px;
+}
+
+.tour-desc{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+
+.tur-link{
+  font-size: 16px;
+  color: rgba(0, 109, 254, 1);
+  text-decoration: none;
+  background: url(../jpg/Shape.svg) no-repeat 100% center; 
+  padding-right: 59px;
+}
+
+
+.tur-link:hover,.tur-link:focus{
+  opacity: .65;
+  
+  }
+/* tourust start  */
